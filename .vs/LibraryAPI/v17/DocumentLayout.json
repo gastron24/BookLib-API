@@ -34,8 +34,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,7 +48,7 @@
               "RelativeDocumentMoniker": "LibraryAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\appsettings.json",
               "RelativeToolTip": "LibraryAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-25T11:28:50.244Z",
               "EditorCaption": ""
@@ -57,7 +61,7 @@
               "RelativeDocumentMoniker": "LibraryAPI\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\Properties\\launchSettings.json",
               "RelativeToolTip": "LibraryAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-25T11:22:56.024Z",
               "EditorCaption": ""
@@ -72,8 +76,7 @@
               "RelativeToolTip": "LibraryAPI\\Models\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:13:10.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:13:10.5Z"
             },
             {
               "$type": "Document",
@@ -91,15 +94,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LibraryAPI",
+              "Title": "LibraryAPI.csproj",
               "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\LibraryAPI.csproj",
               "RelativeDocumentMoniker": "LibraryAPI\\LibraryAPI.csproj",
               "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\LibraryAPI.csproj",
               "RelativeToolTip": "LibraryAPI\\LibraryAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-25T10:32:02.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T10:32:02.694Z"
             },
             {
               "$type": "Document",
@@ -109,14 +111,10 @@
               "RelativeDocumentMoniker": "LibraryAPI\\Program.cs",
               "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\Program.cs",
               "RelativeToolTip": "LibraryAPI\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwEAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-24T12:01:33.338Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

@@ -28,10 +28,7 @@ var books = new List<Book>
 
 app.UseHttpsRedirection();
 
-app.MapGet("/books", () =>
-{
-    return Results.Ok(books);
-});
+
 
 app.MapGet("books/{id}", (int id) =>
 {
@@ -43,23 +40,28 @@ app.MapGet("books/{id}", (int id) =>
     return Results.Ok(book);
 });
 
-app.MapPost("/books", (Book newBook) =>
+app.MapPost("/books", async (Book newBook, BookContext db) =>
 {
-    var maxId = books.Count > 0 ? books.Max(b => b.Id) : 0;
-    newBook.Id = maxId + 1;
-    books.Add(newBook);
+    if (string.IsNullOrWhiteSpace(newBook.Title))
+        return Results.BadRequest("Название не может быть пустым");
+
+    await db.Books.AddAsync(newBook);
+    await db.SaveChangesAsync();
     return Results.Created($"/books/{newBook.Id}", newBook);
 });
 
-app.MapDelete("/books/{id}", (int id) =>
+app.MapDelete("/books/{id}", async (int id, BookContext db) =>
 {
-    var book = books.FirstOrDefault(b => b.Id == id);
+    var book = await db.Books.FindAsync(id);
+
     if(book == null)
     {
         return Results.NotFound("Книга не найдена"); 
     }
-    books.Remove(book);
-    return Results.Ok(book);
+    
+    db.Books.Remove(book);
+    await db.SaveChangesAsync();
+    return Results.Ok("Книга успешно удаленна");
 });
 
 app.MapGet("/books", (string? author, int? year, string? title) =>
