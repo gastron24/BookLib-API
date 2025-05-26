@@ -11,10 +11,10 @@ using Microsoft.EntityFrameworkCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+
 builder.Services.AddDbContext<BookContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+var app = builder.Build();
 
 
 app.MapGet("/", () => "Добро пожаловать в Library.Api!");

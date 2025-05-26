@@ -63,8 +63,7 @@
               "RelativeToolTip": "LibraryAPI\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T11:22:56.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:22:56.024Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "LibraryAPI\\Data\\BookContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T10:32:47.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T10:32:47.426Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "LibraryAPI\\Program.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAwwEAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:01:33.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T12:01:33.338Z"
             }
           ]
         }
