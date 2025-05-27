@@ -1,90 +1,20 @@
-using LibraryAPI.Models;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.Extensions.Hosting;
-using System.Collections.Generic;
-using LibraryAPI.Data;
-using System.Runtime.InteropServices;
-using Microsoft.EntityFrameworkCore;
+    using BookLib.Core.Interfaces;
+    using BookLib.Core.Models;
+    using BookLib.Data.Repositories;
+    using BookLib.Data;
+    using BookLib.Services;
+    using Microsoft.EntityFrameworkCore;
+
+    var builder = WebApplication.CreateBuilder(args);
 
 
+    builder.Services.AddDbContext<AppDbContext>(options =>
+        options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
-var builder = WebApplication.CreateBuilder(args);
+    builder.Services.AddScoped<IBookRepository, BookRepository>();
+    builder.Services.AddScoped<IRepository<Book>, BookRepository>();
+    builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+    builder.Services.AddScoped<BookService>();
 
-builder.Services.AddDbContext<BookContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-var app = builder.Build();
-
-
-app.MapGet("/", () => "Добро пожаловать в Library.Api!");
-
-var books = new List<Book>
-{
-    new Book {Id = 1, Title = "Меня не сломать", Author = "David Goggins", Year = 2021},
-    new Book {Id = 2, Title = "Выносливость", Author = "Alex Hatchinson", Year = 2024}
-};
-
-
-app.UseHttpsRedirection();
-
-
-
-app.MapGet("books/{id}", (int id) =>
-{
-    var book = books.FirstOrDefault(b => b.Id == id);
-    if(book == null)
-    {
-        return Results.NotFound("Книга не найденна");
-    }
-    return Results.Ok(book);
-});
-
-app.MapPost("/books", async (Book newBook, BookContext db) =>
-{
-    if (string.IsNullOrWhiteSpace(newBook.Title))
-        return Results.BadRequest("Название не может быть пустым");
-
-    await db.Books.AddAsync(newBook);
-    await db.SaveChangesAsync();
-    return Results.Created($"/books/{newBook.Id}", newBook);
-});
-
-app.MapDelete("/books/{id}", async (int id, BookContext db) =>
-{
-    var book = await db.Books.FindAsync(id);
-
-    if(book == null)
-    {
-        return Results.NotFound("Книга не найдена"); 
-    }
-    
-    db.Books.Remove(book);
-    await db.SaveChangesAsync();
-    return Results.Ok("Книга успешно удаленна");
-});
-
-app.MapGet("/books", (string? author, int? year, string? title) =>
-{
-    var results = books.AsQueryable();
-
-    if(!string.IsNullOrWhiteSpace(author))
-    {
-        results = results.Where(b => b.Author.Contains(author, StringComparison.OrdinalIgnoreCase));
-    }
-
-    if (year.HasValue && year > 0)
-    {
-        results = results.Where(b => b.Year == year.Value);
-    }
-    if(!string.IsNullOrWhiteSpace(title))
-    {
-        results = results.Where(b => b.Title.Contains(title, StringComparison.OrdinalIgnoreCase));
-    }
-
-    return Results.Ok(results.ToList());
-});
-
-app.Run();
-
-
+    var app = builder.Build();

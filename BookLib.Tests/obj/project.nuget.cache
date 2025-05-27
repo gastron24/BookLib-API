@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "4ZSX2ZAZJGA=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\BookLib.Tests\\BookLib.Tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Не удалось разрешить \"coverlet.collector (>= 6.0.2)\" для \"net9.0\". PackageSourceMapping включен, следующие источники не рассматривались: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Не удалось разрешить \"Microsoft.NET.Test.Sdk (>= 17.12.0)\" для \"net9.0\". PackageSourceMapping включен, следующие источники не рассматривались: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Не удалось разрешить \"xunit (>= 2.9.2)\" для \"net9.0\". PackageSourceMapping включен, следующие источники не рассматривались: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "xunit",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Не удалось разрешить \"xunit.runner.visualstudio (>= 2.8.2)\" для \"net9.0\". PackageSourceMapping включен, следующие источники не рассматривались: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

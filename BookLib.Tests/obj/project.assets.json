@@ -1,0 +1,140 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Microsoft.NET.Test.Sdk >= 17.12.0",
+      "coverlet.collector >= 6.0.2",
+      "xunit >= 2.9.2",
+      "xunit.runner.visualstudio >= 2.8.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pizda\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\BookLib.Tests\\BookLib.Tests.csproj",
+      "projectName": "BookLib.Tests",
+      "projectPath": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\BookLib.Tests\\BookLib.Tests.csproj",
+      "packagesPath": "C:\\Users\\pizda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\BookLib.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pizda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.12.0, )"
+          },
+          "coverlet.collector": {
+            "target": "Package",
+            "version": "[6.0.2, )"
+          },
+          "xunit": {
+            "target": "Package",
+            "version": "[2.9.2, )"
+          },
+          "xunit.runner.visualstudio": {
+            "target": "Package",
+            "version": "[2.8.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Не удалось разрешить \"coverlet.collector (>= 6.0.2)\" для \"net9.0\". PackageSourceMapping включен, следующие источники не рассматривались: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Не удалось разрешить \"Microsoft.NET.Test.Sdk (>= 17.12.0)\" для \"net9.0\". PackageSourceMapping включен, следующие источники не рассматривались: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Не удалось разрешить \"xunit (>= 2.9.2)\" для \"net9.0\". PackageSourceMapping включен, следующие источники не рассматривались: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "xunit",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Не удалось разрешить \"xunit.runner.visualstudio (>= 2.8.2)\" для \"net9.0\". PackageSourceMapping включен, следующие источники не рассматривались: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
