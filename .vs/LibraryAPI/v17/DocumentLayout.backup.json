@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\data\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +42,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\appsettings.json",
               "RelativeDocumentMoniker": "LibraryAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\appsettings.json",
               "RelativeToolTip": "LibraryAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-25T11:28:50.244Z",
               "EditorCaption": ""
@@ -61,9 +61,10 @@
               "RelativeDocumentMoniker": "LibraryAPI\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\Properties\\launchSettings.json",
               "RelativeToolTip": "LibraryAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T11:22:56.024Z"
+              "WhenOpened": "2025-05-25T11:22:56.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,15 +104,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\Program.cs",
               "RelativeDocumentMoniker": "LibraryAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\Program.cs",
-              "RelativeToolTip": "LibraryAPI\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwEAAAAADAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\Program.cs*",
+              "RelativeToolTip": "LibraryAPI\\Program.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:01:33.338Z"
+              "WhenOpened": "2025-05-24T12:01:33.338Z",
+              "EditorCaption": ""
             }
           ]
         }
