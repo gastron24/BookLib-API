@@ -1,7 +1,7 @@
-﻿// BookLib.Services/BookService.cs
+﻿
 using BookLib.Core.Interfaces;
 using BookLib.Core.Models;
-using LibraryAPI.BookLib.Core.Models;
+
 
 namespace BookLib.Services
 {

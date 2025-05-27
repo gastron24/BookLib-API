@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.core\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.core\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.data\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.data\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.core\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.core\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.core\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.core\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.data\\repositories\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.data\\repositories\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,16 +23,16 @@
       "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.data\\repositories\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.data\\repositories\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.data\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.data\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|c:\\users\\pizda\\source\\repos\\libraryapi\\libraryapi\\booklib.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D01AF23-AEDD-48C7-929D-FF72107F9F57}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\booklib.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,37 +42,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\AppDbContext.cs*",
+              "RelativeToolTip": "LibraryAPI\\BookLib.Data\\AppDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:04:19.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\Program.cs*",
+              "RelativeToolTip": "LibraryAPI\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:52:31.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Repositories.cs",
+              "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\Repositories\\Repositories.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Data\\Repositories\\Repositories.cs",
+              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\Repositories\\Repositories.cs*",
+              "RelativeToolTip": "LibraryAPI\\BookLib.Data\\Repositories\\Repositories.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:50:05.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Core\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Core\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Core\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "LibraryAPI\\BookLib.Core\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Core\\Interfaces\\IUnitOfWork.cs*",
+              "RelativeToolTip": "LibraryAPI\\BookLib.Core\\Interfaces\\IUnitOfWork.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T11:14:57.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Data\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\UnitOfWork.cs",
-              "RelativeToolTip": "LibraryAPI\\BookLib.Data\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\UnitOfWork.cs*",
+              "RelativeToolTip": "LibraryAPI\\BookLib.Data\\UnitOfWork.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T11:14:05.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\appsettings.json",
               "RelativeDocumentMoniker": "LibraryAPI\\appsettings.json",
@@ -96,121 +119,34 @@
               "RelativeToolTip": "LibraryAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-27T11:01:25.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\AppDbContext.cs",
-              "RelativeToolTip": "LibraryAPI\\BookLib.Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T10:59:01.792Z",
+              "WhenOpened": "2025-05-27T11:01:25.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.API\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "LibraryAPI\\BookLib.API\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.API\\Controllers\\BookController.cs",
-              "RelativeToolTip": "LibraryAPI\\BookLib.API\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.API\\Controllers\\BookController.cs*",
+              "RelativeToolTip": "LibraryAPI\\BookLib.API\\Controllers\\BookController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T10:56:36.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Services\\BookService.cs",
-              "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Services\\BookService.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Services\\BookService.cs",
-              "RelativeToolTip": "LibraryAPI\\BookLib.Services\\BookService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T10:54:59.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\Repositories\\BookRepository.cs",
               "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Data\\Repositories\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\Repositories\\BookRepository.cs",
-              "RelativeToolTip": "LibraryAPI\\BookLib.Data\\Repositories\\BookRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwA0AAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\Repositories\\BookRepository.cs*",
+              "RelativeToolTip": "LibraryAPI\\BookLib.Data\\Repositories\\BookRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T10:54:09.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Repositories.cs",
-              "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\Repositories\\Repositories.cs",
-              "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Data\\Repositories\\Repositories.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Data\\Repositories\\Repositories.cs",
-              "RelativeToolTip": "LibraryAPI\\BookLib.Data\\Repositories\\Repositories.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T10:53:32.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Core\\Interfaces\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Core\\Interfaces\\IBookRepository.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Core\\Interfaces\\IBookRepository.cs",
-              "RelativeToolTip": "LibraryAPI\\BookLib.Core\\Interfaces\\IBookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T10:50:30.649Z",
+              "WhenOpened": "2025-05-27T10:54:09.655Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Core\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Core\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Core\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "LibraryAPI\\BookLib.Core\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T10:47:30.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Core\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "LibraryAPI\\BookLib.Core\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\BookLib.Core\\Models\\Book.cs",
-              "RelativeToolTip": "LibraryAPI\\BookLib.Core\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T10:45:57.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\pizda\\source\\repos\\LibraryAPI\\LibraryAPI\\Program.cs",
-              "RelativeToolTip": "LibraryAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:01:33.338Z"
             }
           ]
         }
